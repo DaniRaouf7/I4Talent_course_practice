@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "i4talent-practice-setup"
+version = "0.1.0"
+description = "Practice package for preprocessing data"
+authors = ["DaniRaouf7 <danishraouf@hotmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pandas = "^2.2.2"
+seaborn = "^0.13.2"
+scikit-learn = "^1.4.2"
+numpy = "^1.26.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
