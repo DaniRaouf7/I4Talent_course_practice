@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "i4talent-practice-setup"
+name = "i4talent_practice"
 version = "0.1.0"
 description = "Practice package for preprocessing data"
 authors = ["DaniRaouf7 <danishraouf@hotmail.com>"]
@@ -11,6 +11,7 @@ pandas = "^2.2.2"
 seaborn = "^0.13.2"
 scikit-learn = "^1.4.2"
 numpy = "^1.26.4"
+click = "^8.1.7"
 
 
 [build-system]
